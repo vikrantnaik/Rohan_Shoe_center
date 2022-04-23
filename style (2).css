@@ -1,0 +1,117 @@
+body{
+    font-family:'PT sans', sans-serif;
+    background-color: #252529;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+ a{
+     text-decoration: none;
+     color: #ccc;
+     margin: 0;
+     padding: 0;
+
+ }
+
+ #comman {
+     margin: 0;
+     padding: 0;
+     background-image: url(wallpaper\ \(1\).jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100vh;
+      position: relative; 
+     overflow: hidden;
+}
+#comman .container{
+    margin-top: 15vh;
+    
+}
+
+#comman h1{
+    font-size: 80px;
+    margin: 0;
+
+}
+
+#comman h2{
+    font-size: 40px;
+
+}
+
+#comman p{
+    font-size: 25px;
+
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    color:rgb(51,34,34);
+    position:fixed;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+
+}
+
+nav a{
+    display:inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+    color: #eee;
+}
+nav li :hover{
+    background-color:#444;
+}
+.container{
+    max-width: 1180px;
+    text-align:center;
+    margin: auto;
+    padding: 3rem;
+    
+}
+p{
+    font-size: 1.4rem;
+}
+
+footer .salman{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    text-align: left;
+    font-size: 14px;
+
+}
+footer .salman ul{
+    list-style: none;
+}
+
+footer .salman ul li:first-child{
+font-size: 1.2rem;
+padding-bottom: 0.5rem;
+border-bottom: #444 solid 2px;
+margin-bottom: 2rem;
+}
+
+footer .footer-bottom{
+    background-color: #333;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+
+
+
+
+
+
